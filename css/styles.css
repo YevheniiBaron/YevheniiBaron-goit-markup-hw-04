@@ -36,6 +36,11 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .container {
@@ -44,18 +49,19 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-}
 
-.header {
-  background-color: #fff;
 
 }
+
+
 
 .header-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+
+
 }
 
 .header-logo {
@@ -66,6 +72,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  position: relative;
+
 
   display: inline-block;
   padding: 24px 0;
@@ -83,6 +91,7 @@ img {
   align-items: center;
   margin-right: 332px;
   flex-grow: 1;
+  color: #404bbf;
 }
 
 .nav-list {
@@ -131,13 +140,15 @@ img {
 }
 
 .hero {
+  max-width: 1440px;
   background-color: rgba(51, 46, 66, 0.7);
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(./bkgrnd/people-office\ 1.jpg);
+    url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 
 
 
@@ -224,6 +235,20 @@ img {
 
 .features-item {
   width: calc((100% - 72px) / 4);
+
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-Diligence {
+  width: 2.357421875em;
 }
 
 .features-subtitle {
