@@ -5,6 +5,25 @@ body {
   margin: 0;
 }
 
+.features-svg-antenna,
+.features-svg-clock,
+.features-svg-diagram,
+.features-svg-astro {
+  display: flex;
+  max-width: 264px;
+  min-height: 112px;
+  border: 2px solid #8E8F99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+
+  padding: 24px 100px;
+}
+
+.icon-strategy,
+.icon-punctuality,
+.icon-diligence,
+.icon-technologies {}
+
 h1,
 h2,
 h3,
@@ -94,6 +113,8 @@ img {
   color: #404bbf;
 }
 
+
+
 .nav-list {
   display: flex;
   align-items: flex-start;
@@ -103,6 +124,15 @@ img {
 
 }
 
+.nav-link::after {
+  content: '';
+  background-color: #404BBF;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  display: block;
+
+}
 
 .nav-item>.nav-link {
   display: block;
@@ -141,14 +171,16 @@ img {
 
 .hero {
   max-width: 1440px;
-  background-color: rgba(51, 46, 66, 0.7);
+  background-color: rgba(46, 47, 66, 0.7);
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
+  margin: auto;
+
+
 
 
 
@@ -206,6 +238,12 @@ img {
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.icon-strategy-container {
+  max-width: 264px;
+  max-height: 112px;
+  border: 2px solid #8E8F99
 }
 
 .features-container {
