@@ -15,8 +15,9 @@ body {
   border: 2px solid #8E8F99;
   border-radius: 4px;
   margin-bottom: 8px;
-
-  padding: 24px 100px;
+  /* padding: 24px 100px; */
+  justify-content: center;
+  align-items: center
 }
 
 .icon-strategy,
